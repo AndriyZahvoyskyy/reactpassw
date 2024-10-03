@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reactpassw/static/css/main.90c92843.css",
+    "main.js": "/reactpassw/static/js/main.77d661a0.js",
+    "static/js/453.02c29438.chunk.js": "/reactpassw/static/js/453.02c29438.chunk.js",
+    "index.html": "/reactpassw/index.html",
+    "main.90c92843.css.map": "/reactpassw/static/css/main.90c92843.css.map",
+    "main.77d661a0.js.map": "/reactpassw/static/js/main.77d661a0.js.map",
+    "453.02c29438.chunk.js.map": "/reactpassw/static/js/453.02c29438.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90c92843.css",
+    "static/js/main.77d661a0.js"
+  ]
+}
