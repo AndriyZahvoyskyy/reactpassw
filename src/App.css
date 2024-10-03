@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+  background: linear-gradient(90deg, #14131B 0%, #08070B 100%);
+  color: #fff;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #24232c;
+  width: 540px;
+  height: 80px;
+  padding-inline: 32px;
+}
+
+.password {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.password-copy {
+  border: none;
+  background-color: transparent;
+  max-width: 100%;
+  height: auto;
+}
+
+.options-container {
+  background-color: #24232c;
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}
+
+.text {
+  font-size: 18px;
+}
+
+.length-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.length {
+  color: aquamarine;
+  font-size: 32px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  margin-bottom: 32px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -12px;
+}
+
+.slider::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 4px;
+  cursor: pointer;
+  background-color: aquamarine;
+}
+
+.input-container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.input-container input {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  height: 16px;
+  width: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-container input:checked {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: aquamarine;
+  height: 16px;
+  width: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.button-generate {
+  background-color: aquamarine;
+  height: 45px;
+  border: none;
+  cursor: pointer;
+  font-family: 'JetBrains Mono', monospace;
+  margin-top: 24px;
+}
